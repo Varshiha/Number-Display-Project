@@ -12,3 +12,15 @@ It is discussed in chapter 3.
 To use this project, create an instance of class NumberDisplay. Then inspect this 
 instance and leave the inspector window open. With the inspector window open, 
 call the object's methods, such as increment and setValue.
+
+
+NUMBER DISPLAY PROJECT
+1.
+2.
+3.
+4.
+5. This is what was shown in the Terminal window for the object named hours: hours.increment();
+6. This is what was shown in the Terminal window for the object named minutes: minutes.increment(); FINISH 6 come back late
+
+
+
