@@ -1,4 +1,4 @@
-Project: number-display
+ wProject: number-display
 Authors: Michael Kölling and David J. Barnes
 
 This project is part of the material for the book
@@ -15,12 +15,24 @@ call the object's methods, such as increment and setValue.
 
 
 NUMBER DISPLAY PROJECT
-1.
-2.
-3.
-4.
-5. This is what was shown in the Terminal window for the object named hours: hours.increment();
-6. This is what was shown in the Terminal window for the object named minutes: minutes.increment(); FINISH 6 come back late
+1.The differences are that the class diagram is more simple and straight foward when the object diagram is more specific na dhas more arrows. (I drew the picture of the diagram which I put on omnivox with this repository's link.)
 
+2. The class diagram can change when we remove, add or change the name of the class. We can have more classes, less or even nothing changes except the name. 
 
+3.The object diagram can change if we add another object of that class which will add another box or we we can remove one with will remove a box.
 
+4.private Instructor tutor;
+
+5.This is what was shown in the Terminal window for the object named hours: hours.increment();
+
+6.This is what was shown in the Terminal window for the object named minutes: minutes.increment(); I need to check if the value is at 0  for minutes.increment and if it is I have to call hours.increment so that it goes up by one like a real digital clock.
+
+8. Well the first time display.getValue() returned int 3 but the when I tried to put in display.Value(10) it still returned int 3. After reading the code and the description, I understood that it did nothing because the code is set to do nothing if the value is over the limit. It says to run the code only if the replacementValue is more or equal to 0 and if the replacementValue is less than than the limit.
+
+9.I think the getValue will be 0. I was right. It goes back to zero when the limit has been reached. 
+
+11. I think the error for display.setValue(int 5); was that by putting int I am declaring a variable but if you take it off I pass it onto the setValue method. 
+
+12. I ahve to repeat number 9. So I think the result of the getValue will be 10 because it is less or equal to the limit whihc is ten. Lets see if I was right. I was right. 
+
+13. 
