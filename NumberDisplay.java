@@ -14,6 +14,11 @@ public class NumberDisplay
 {
     private int limit;
     private int value;
+    private boolean a;
+    private boolean b;
+    
+
+    
 
     /**
      * Constructor for objects of class NumberDisplay.
@@ -32,6 +37,7 @@ public class NumberDisplay
     {
         return value;
     }
+    
 
     /**
      * Return the display value (that is, the current value as a two-digit
