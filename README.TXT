@@ -15,13 +15,13 @@ call the object's methods, such as increment and setValue.
 
 
 NUMBER DISPLAY PROJECT
-1.The differences are that the class diagram is more simple and straight foward when the object diagram is more specific na dhas more arrows. (I drew the picture of the diagram which I put on omnivox with this repository's link.)
+1.The differences are that the class diagram is more simple and straight foward when the object diagram is more specific and has more arrows. The class diagram is persistent. The object diagram doesn't get saved on GitHub only the java code.
 
 2. The class diagram can change when we remove, add or change the name of the class. We can have more classes, less or even nothing changes except the name. 
 
 3.The object diagram can change if we add another object of that class which will add another box or we we can remove one with will remove a box.
 
-4.private Instructor tutor;
+4.private Instructor tutor; (Instructor won't work because no class)
 
 5.This is what was shown in the Terminal window for the object named hours: hours.increment();
 
@@ -33,6 +33,17 @@ NUMBER DISPLAY PROJECT
 
 11. I think the error for display.setValue(int 5); was that by putting int I am declaring a variable but if you take it off I pass it onto the setValue method. 
 
-12. I ahve to repeat number 9. So I think the result of the getValue will be 10 because it is less or equal to the limit whihc is ten. Lets see if I was right. I was right. 
+12. I have to repeat number 9. So I think the result of the getValue will be 10 because it is less or equal to the limit which is ten. Lets see if I was right. I was right. 
 
-13. 
+13. The only valid parameter would be 0 because we took out the = from >=.
+
+14. Negative numbers are now valid because even if one side is false and teh other side is true it will still say true and only say flase of both sides are false.
+
+15. false: Right
+true: Right
+true: Wrong 
+false: Right
+true: Right
+
+
+
