@@ -31,6 +31,8 @@ NUMBER DISPLAY PROJECT
 
 9.I think the getValue will be 0. I was right. It goes back to zero when the limit has been reached. 
 
+10. this is the error message I saw: Error: non-static method getValue() cannot be referenced from a static context.
+
 11. I think the error for display.setValue(int 5); was that by putting int I am declaring a variable but if you take it off I pass it onto the setValue method. 
 
 12. I have to repeat number 9. So I think the result of the getValue will be 10 because it is less or equal to the limit which is ten. Lets see if I was right. I was right. 
@@ -45,5 +47,12 @@ true: Wrong
 false: Right
 true: Right
 
+16. The expression I wrote in the Code Pad is (a && b) || (!a && !b). I also declared boolean a = true; and boolean b = true;.
 
+17. I wrote the expressions: ( !a && b) || (a && !b) which came back false and ( !a && b) || (a && b) which came back true. 
 
+18. Surprinsingly, it did work correctly. The assumtions made within it are if it is a one digit number, it will see that it is less than ten and add a zero in front and for anything bigger it will not do that. When I put 1000 as the limit and called the set value with the number 678, the number that was returned was "678", not a two-digit number. 
+
+19. No differences because it gives the value and the quotations don't do anything because it has nothing written in it. Unless if it had "0" that would change it from "05" to "50" whihc is completely different.
+
+20. I predict that it will be 12cat and the other will be cat39. No, the answer did not surprise me becuase I had already studied this in chapter 2 of the slides. However why it does that I don't know. I am guessing that when number are placed at the beginning it additions but at the end it does not because it reads it as sentence starting from left to right.
